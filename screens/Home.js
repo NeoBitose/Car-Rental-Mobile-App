@@ -11,15 +11,18 @@ function Home({ navigation }) {
                 fontSize: 20,
                 fontWeight: "bold",
                 color: '#841584',
-                marginBottom: 15
+                marginBottom: 15,
+                textAlign: 'center'
             }}>
                 NeoRental
             </Text>
-            <Text>
+            <Text style={{
+                fontSize: 17
+            }}>
                 Selamat Datang,
             </Text>
             <Text style={{
-                fontSize: 15,
+                fontSize: 20,
                 fontWeight: '600'
             }}>
                 Ahmad Alif Ramadhan
