@@ -5,7 +5,19 @@ import Icon from 'react-native-vector-icons/Ionicons';
 
 function History({ navigation }) {
     return (
-        <SafeAreaView>
+        <SafeAreaView style={{
+            paddingHorizontal: 15
+        }}>
+            <Text style={{
+                marginTop: 15,
+                marginBottom: 20,
+                fontSize:25,
+                fontWeight: 500,
+                textAlign: 'center',
+                color: '#841584'
+            }}>
+                History Peminjaman
+            </Text>
             <View style={styles.box}>
                 <Icon name='time-outline' size={35} />
                 <View style={styles.groupDetail}>
@@ -127,8 +139,7 @@ const styles = StyleSheet.create({
         borderRadius: 10,
         paddingHorizontal: 10,
         paddingVertical: 10,
-        marginVertical: 10,
-        marginHorizontal: 10
+        marginVertical: 5,
     },
     history:{
         marginBottom: 10,

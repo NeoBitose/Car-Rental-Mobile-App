@@ -78,9 +78,9 @@ function Home({ navigation }) {
                             source={require("../assets/images/cars/car11.min.jpg")}
                             style={styles.image}
                         />
-                        <Text style={styles.title}>Card 1</Text>
+                        <Text style={styles.title}>Audi I8</Text>
                         <Text style={styles.description}>
-                            This is the description for Card 1.
+                            This is the description for Card.
                         </Text>
                     </View>
 
@@ -92,7 +92,7 @@ function Home({ navigation }) {
                         />
                         <Text style={styles.title}>Card 2</Text>
                         <Text style={styles.description}>
-                            This is the description for Card 2.
+                            This is the description for Card.
                         </Text>
                     </View>
 
@@ -104,7 +104,7 @@ function Home({ navigation }) {
                         />
                         <Text style={styles.title}>Card 3</Text>
                         <Text style={styles.description}>
-                            This is the description for Card 3.
+                            This is the description for Card.
                         </Text>
                     </View>
                 </ScrollView>
@@ -124,6 +124,7 @@ const styles = StyleSheet.create({
         backgroundColor: '#f5f5f5',
     },
     card: {
+        width: 170,
         backgroundColor: '#fff',
         borderRadius: 8,
         padding: 15,
