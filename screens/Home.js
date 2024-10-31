@@ -107,8 +107,6 @@ function Home({ navigation }) {
                             This is the description for Card 3.
                         </Text>
                     </View>
-
-                    {/* Add more cards as needed */}
                 </ScrollView>
             </View>
         </SafeAreaView>

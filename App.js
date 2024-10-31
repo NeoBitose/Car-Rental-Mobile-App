@@ -7,6 +7,7 @@ import Ionicons from 'react-native-vector-icons/Ionicons';
 import Login from "./screens/Login";
 import Home from "./screens/Home";
 import Profile from './screens/Profile';
+import Search from './screens/Search';
 
 const Tab = createBottomTabNavigator();
 
@@ -40,7 +41,7 @@ function MyTabs() {
       )}
     >
       <Tab.Screen name="home" component={Home} />
-      <Tab.Screen name="explore" component={Home} />
+      <Tab.Screen name="explore" component={Search} />
       <Tab.Screen name="history" component={Home} />
       <Tab.Screen name="profile" component={Profile} />
     </Tab.Navigator>
